@@ -1,10 +1,10 @@
-
-
+import AdviceCard from "./AdviceCard";
+import './AdviceCard.css';
 function App() {
   return (
-    <div className="App">
-     
-    </div>
+    <main className="App bg-dark-blue w-screen h-screen flex items-center justify-center">
+     <AdviceCard />
+    </main>
   );
 }
 
