@@ -7,6 +7,9 @@ module.exports = {
       colors: { 
         'dark-blue': 'hsl(218, 23%, 16%)',
       },
+      fontFamily: {
+        'Manrope': ['Manrope', 'sans-serif'],
+      },
     },
   },
   plugins: [],
