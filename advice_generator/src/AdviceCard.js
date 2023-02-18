@@ -39,7 +39,7 @@ function AdviceCard() {
         
         <p className="advice-text text-[20px] md:text-[28px] max-w-[80%] text-center font-Manrope font-extrabold text-[#CEE3E9]">{adviceText}</p>
 
-        <div className="separator mb-[3rem] w-[100%] h-[10%]">
+        <div className="separator mb-[3rem]">
             <svg xmlns="http://www.w3.org/2000/svg" className="sm:w-[444px] sm:h-[16px] w-[60%] h-[100%]" ><g fill="none" fill-rule="evenodd"><path fill="#4F5D74" d="M0 8h196v1H0zM248 8h196v1H248z"/><g transform="translate(212)" fill="#CEE3E9"><rect width="6" height="16" rx="3"/><rect x="14" width="6" height="16" rx="3"/></g></g></svg>
         </div>
         
