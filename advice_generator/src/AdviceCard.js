@@ -33,14 +33,18 @@ function AdviceCard() {
 
   return (
 
-    <div className="advice-card bg-[#323A49] w-[90%] h-[80%] sm:w-[75%] sm:h-[400px] md:w-[75%] md:h-[400px] lg:w-[60%] lg:h-[400px] xl:w-[600px] xl:h-[400px] flex flex-col items-center justify-around rounded-[20px] relative drop-shadow-2xl">
+    <div className="advice-card bg-[#323A49] w-[90%] h-[60%] sm:w-[90%] sm:h-[250px] md:w-[600px] md:h-[350px] flex flex-col gap-1 items-center justify-around rounded-[20px] relative drop-shadow-2xl">
         
-        <p id="adviceNumber" className="advice-number text-[#52FFA8] font-Manrope tracking-[5px] text-[12px] font-bold mt-[1rem]"> ADVICE # {adviceID}  </p>
+        <p id="adviceNumber" className="advice-number text-[#52FFA8] h-[15%] font-Manrope tracking-[5px] text-[12px] font-bold flex items-center "> ADVICE # {adviceID}  </p>
         
-        <p className="advice-text text-[20px] md:text-[28px] max-w-[80%] text-center font-Manrope font-extrabold text-[#CEE3E9]">{adviceText}</p>
+        <p className="advice-text  text-[25px] md:text-[28px] max-w-[80%] max-h-[90%] md:max-h-[50%] text-center font-Manrope font-extrabold text-[#CEE3E9] p-3"> " {adviceText} "</p>
 
-        <div className="separator mb-[3rem]">
+        <div className="separator_desktop mb-[3rem] sm:block hidden">
             <svg xmlns="http://www.w3.org/2000/svg" className="sm:w-[444px] sm:h-[16px] w-[60%] h-[100%]" ><g fill="none" fill-rule="evenodd"><path fill="#4F5D74" d="M0 8h196v1H0zM248 8h196v1H248z"/><g transform="translate(212)" fill="#CEE3E9"><rect width="6" height="16" rx="3"/><rect x="14" width="6" height="16" rx="3"/></g></g></svg>
+        </div>
+
+        <div className="separator_mobile mb-[3rem] sm:hidden block">
+            <svg width="295" height="16" xmlns="http://www.w3.org/2000/svg"><g fill="none" fill-rule="evenodd"><path fill="#4F5D74" d="M0 8h122v1H0zM173 8h122v1H173z"/><g transform="translate(138)" fill="#CEE3E9"><rect width="6" height="16" rx="3"/><rect x="14" width="6" height="16" rx="3"/></g></g></svg>
         </div>
         
 
