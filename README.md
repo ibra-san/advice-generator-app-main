@@ -24,8 +24,8 @@ This is a random advice generator app. You can click on the dice on order to gen
 
 ### Links
 
-- Solution URL: [Add solution URL here](https://your-solution-url.com)
-- Live Site URL: [Add live site URL here](https://your-live-site-url.com)
+- Solution URL: [Add solution URL here](https://www.frontendmentor.io/solutions/advice-generator-app-using-reactjs-tailwindcss-and-axios-4gRUmpC0HV)
+- Live Site URL: [Add live site URL here](https://imsan.netlify.app/projects/project_7/advice%20generator%20app/build/index.html)
 
 ## My process
 
