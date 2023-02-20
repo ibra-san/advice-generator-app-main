@@ -31,7 +31,7 @@ This is a random advice generator app. You can click on the dice on order to gen
 
 ### Built with
 
--[React](https://reactjs.org/) - JS library
+- [React](https://reactjs.org/) - JS library
 
 - [TailWindCSS](https://tailwindcss.com) - For CSS framework TailWindCSS
 - [Advice Slip API](https://api.adviceslip.com) - API for Advice slip
