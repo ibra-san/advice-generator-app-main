@@ -45,7 +45,7 @@ function AdviceCard() {
         
         <p id="adviceNumber" className="advice-number text-[#52FFA8] h-[15%] font-Manrope tracking-[5px] text-[12px] font-bold flex items-center "> ADVICE # {adviceID}  </p>
         
-        <p className="advice-text  text-[25px] md:text-[28px] max-w-[80%] max-h-[90%] md:max-h-[50%] text-center font-Manrope font-extrabold text-[#CEE3E9] p-3"> " {adviceText} "</p>
+        <p className="advice-text  text-[25px] md:text-[28px] max-w-[80%] max-h-[90%] md:max-h-[50%] text-center font-Manrope font-extrabold text-[#CEE3E9] p-3">&ldquo; {adviceText} &rdquo;</p>
 
         <div className="separator_desktop mb-[3rem] sm:block hidden">
             <svg xmlns="http://www.w3.org/2000/svg" className="sm:w-[444px] sm:h-[16px] w-[60%] h-[100%]" ><g fill="none" fill-rule="evenodd"><path fill="#4F5D74" d="M0 8h196v1H0zM248 8h196v1H248z"/><g transform="translate(212)" fill="#CEE3E9"><rect width="6" height="16" rx="3"/><rect x="14" width="6" height="16" rx="3"/></g></g></svg>
